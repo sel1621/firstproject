@@ -1,0 +1,37 @@
+body {
+ font-family: Verdana, Geneva, Tahoma, sans-serif; 
+ margin: 0;  
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #34495e;
+    height: 8vh;
+}
+
+.nav h1 {
+    color: whitesmoke;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.nav-items {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.nav-items li {
+    list-style: none;
+    display: inline;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-items li:not(:last-child) {
+    margin-right: 10px; 
+}
+
